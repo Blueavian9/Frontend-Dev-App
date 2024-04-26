@@ -1,11 +1,37 @@
 @import url(https://fonts.googleapis.com/css?family-=Lato:300,400,700,900);
 
-h1, h2, h3, p {
+.header {
+  background-color: CornflowerBlue;
+  text-align: center;
+}
+
+.about-me {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.title {
+  font-weight: bold;
+}
+
+h1 {
+  color: Azure;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+h1,
+h2,
+h3,
+p {
   font-family: "Helvetica", sans-serif;
 }
 
 h1 {
-  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/paint3.png);
   text-align: center;
   font-size: 100px;
   color: khaki;
@@ -33,28 +59,3 @@ h1 {
 #paint {
   background-color: SkyBlue;
 }
-
-
-
-/* 
-.header { 
-  background-color: CornflowerBlue;
-  text-align: center; 
-}
-
-.about-me {
-  font-size: 20px;
-  opacity: 0.5; 
-}
-
-.title {
-  font-weight: bold;
-}
-
-h1 { 
-  color: Azure;
-}
-body { 
-  font-family: 'Georgia', serif;
-  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png"); 
-} */
