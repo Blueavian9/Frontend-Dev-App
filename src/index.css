@@ -22,11 +22,11 @@
 
 body {
     font-family: 'Georgia', serif;
-    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.webp");
+    background-image: url("../images/hypnotize_bg");
 }
 
 
-h1 {
+.item h1 {
     font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
@@ -44,18 +44,17 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    color: Azure;
+    color: #010e0e;
 }
 
 
 
 h1 {
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/paint.jpeg);
+    background-image: url(../images/pattern.jpeg);
     text-align: center;
     font-family: 100px;
     font-size: 100px;
     font-weight: bold;
-    /* background-color: skyblue; */
 }
 
 .item h2 {
