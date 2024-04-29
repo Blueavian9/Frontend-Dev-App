@@ -8,11 +8,11 @@
     text-align: center;
 }
 
-
+/* 
 .about-me {
     font-size: 20px;
     opacity: 0.5;
-}
+} */
 
 .title {
     font-size: 100%;
@@ -22,7 +22,7 @@
 
 body {
     font-family: 'Georgia', serif;
-    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.webp");
 }
 
 
@@ -69,12 +69,12 @@ h1 {
     font-weight: bold;
 }
 
-.item h2,
+
 #brush {
     background-color: mediumspringgreen;
 }
 
-.item h2,
+
 #frame {
     background-color: LightCoral;
 }
