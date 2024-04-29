@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family-=Lato:300,400,700,900);
+
+
+
+
+.header {
+    background-color: CornflowerBlue;
+    text-align: center;
+}
+
+
+.about-me {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.title {
+    font-size: 100%;
+    font-weight: bold;
+    color: khaki;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+h1,
+h2,
+h3,
+p {
+    display: block;
+    font-family: "Helvetica", sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: Azure;
+}
+
+
+
+h1 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/paint.jpeg);
+    text-align: center;
+    font-family: 100px;
+    font-size: 100px;
+    font-weight: bold;
+    /* background-color: skyblue; */
+}
+
+.item h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.price {
+    color: Blue;
+    font-weight: bold;
+}
+
+.item h2,
+#brush {
+    background-color: mediumspringgreen;
+}
+
+.item h2,
+#frame {
+    background-color: LightCoral;
+}
+
+#paint {
+    background-color: SkyBlue;
+}
+
+#finnish {
+    background-color: yellow;
+}
