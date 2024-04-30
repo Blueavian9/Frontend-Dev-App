@@ -8,34 +8,35 @@
     text-align: center;
 }
 
-/* 
-.about-me {
-    font-size: 20px;
-    opacity: 0.5;
-} */
-
 .title {
-    font-size: 100%;
+    font-size: 80%;
     font-weight: bold;
     color: khaki;
 }
 
 body {
+    justify-content: space-around;
     font-family: 'Georgia', serif;
     background-image: url("../images/hypnotize_bg");
+    padding: 0 0 0 0;
+    border-color: #0f1973;
 }
 
+body background {
+    border-radius: circle;
+}
 
 .item h1 {
     font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
-    color: khaki;
+    color: #f0e68c;
+    margin-left: 4;
 }
 
 h1,
 h2,
-h3,
+h5,
 p {
     display: block;
     font-family: "Helvetica", sans-serif;
@@ -70,18 +71,37 @@ h1 {
 
 
 #brush {
-    background-color: mediumspringgreen;
+    background-color: #00fa9a;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff0565;
 }
 
 
 #frame {
-    background-color: LightCoral;
+    background-color: #f08080;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0f7f7f;
+
 }
 
 #paint {
     background-color: SkyBlue;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: #783114;
+
 }
 
 #finnish {
-    background-color: yellow;
+    background-color: #ffff00;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0000ff;
+
 }
