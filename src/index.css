@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family-=Lato:300,400,700,900);
 
-
+* {
+    box-sizing: border-box;
+    padding: 5px;
+}
 
 
 .header {
@@ -15,23 +18,25 @@
 }
 
 body {
+    display: block;
+    margin: 0 auto;
     justify-content: space-around;
     font-family: 'Georgia', serif;
     background-image: url("../images/hypnotize_bg");
     padding: 0 0 0 0;
-    border-color: #0f1973;
+    /* border-color: #0f1973; */
 }
 
-body background {
-    border-radius: circle;
-}
+/* body background {
+    border-style: solid;
+    border-color: #0f1973;
+} */
 
 .item h1 {
-    font-family: Helvetica;
     font-size: 100px;
+    /* text-align: center; */
     font-weight: bold;
     color: #f0e68c;
-    margin-left: 4;
 }
 
 h1,
@@ -39,7 +44,8 @@ h2,
 h5,
 p {
     display: block;
-    font-family: "Helvetica", sans-serif;
+    /* font-family: "Helvetica", sans-serif; */
+    font-family: "Times New Roman", Times, serif;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -85,7 +91,6 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     color: #0f7f7f;
-
 }
 
 #paint {
@@ -94,7 +99,6 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     color: #783114;
-
 }
 
 #finnish {
@@ -103,5 +107,45 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     color: #0000ff;
-
 }
+
+
+
+/* 
+h1, 
+h2, 
+h3, 
+p {
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  text-align: center;
+  font-size: 100px;
+  color: khaki;
+}
+
+.item h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
+
+#brush {
+  background-color: mediumspringgreen;
+}
+
+#frame {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+*/
